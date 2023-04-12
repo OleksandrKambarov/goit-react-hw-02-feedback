@@ -8,7 +8,16 @@ class App extends Component {
   };
 
   render() {
-    return <div>Class Component</div>;
+    return (
+      <div>
+        {/* <Section title="Please leave feedback">
+          <FeedbackOptions
+            options={buttons}
+            onLeaveFeedback={this.handlerBTn}
+          />
+        </Section> */}
+      </div>
+    );
   }
 }
 
