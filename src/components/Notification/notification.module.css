@@ -1,3 +1,6 @@
 .notification {
-  color: white;
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+  font-size: 32px;
+  color: rgb(231, 12, 12);
 }
