@@ -10,6 +10,7 @@ class App extends Component {
     neutral: 0,
     bad: 0,
   };
+
   handlerBTn = ({ target: { textContent } }) => {
     this.setState({
       [textContent]: this.state[textContent] + 1,
@@ -23,9 +24,11 @@ class App extends Component {
     }, 0);
     return total;
   };
+
   countPositiveFeedbackPercentage = () => {
     return Math.round((this.state.good * 100) / this.countTotalFeedback());
   };
+
   render() {
     const buttons = Object.keys({ ...this.state });
     return (
