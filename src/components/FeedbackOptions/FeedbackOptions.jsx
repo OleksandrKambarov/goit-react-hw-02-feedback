@@ -12,11 +12,6 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => (
   </div>
 );
 
-FeedbackOptions.defaultProps = {
-  total: 0,
-  positivePercentage: 0,
-};
-
 FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
